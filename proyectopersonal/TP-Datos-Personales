@@ -1,1 +1,33 @@
-<div class="flourish-embed flourish-chart" data-src="visualisation/26770978"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/26770978/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mis Visualizaciones</title>
+</head>
+<body>
+
+    <h1>Visualizaciones Públicas</h1>
+    <p>Haz clic en los enlaces a continuación para ver las visualizaciones:</p>
+
+    <ul>
+        <li>
+            <a href="https://public.flourish.studio/visualisation/26770978/" target="_blank">Nombre de la Visualización 1</a>
+        </li>
+        <li>
+            <a href="URL_VISUALIZACION_2" target="_blank">Nombre de la Visualización 2</a>
+        </li>
+        <li>
+            <a href="URL_VISUALIZACION_3" target="_blank">Nombre de la Visualización 3</a>
+        </li>
+        <li>
+            <a href="URL_VISUALIZACION_4" target="_blank">Nombre de la Visualización 4</a>
+        </li>
+    </ul>
+
+    <p>
+        Para publicar esta página en GitHub, sube este archivo (por ejemplo, `index.html`) a un repositorio. 
+        Si quieres que se muestre como un sitio web, habilita **GitHub Pages** en la configuración del repositorio.
+    </p>
+
+</body>
+</html>
