@@ -1,2 +1,44 @@
+¡Claro que sí! Para crear un archivo HTML que muestre la visualización de Flourish y que luego puedas subir a GitHub (por ejemplo, para alojarlo con GitHub Pages), solo necesitas un archivo con el código básico de una página web, donde se incluya el código que proporcionaste.
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/26770978"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/26770978/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+Aquí tienes el código completo y las instrucciones:
+
+📝 Código HTML Completo
+Copia el siguiente código y guárdalo como, por ejemplo, index.html.
+
+HTML
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Visualización Flourish</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px; /* Un poco de margen alrededor */
+            text-align: center; /* Centra el título */
+        }
+        .flourish-container {
+            max-width: 1200px; /* Opcional: Limita el ancho máximo del contenedor */
+            margin: 0 auto; /* Centra el contenedor principal */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flourish-container">
+        <h1>Visualización de Datos</h1>
+        <p>Esta es la visualización incrustada de Flourish Studio.</p>
+
+        <div class="flourish-embed flourish-chart" data-src="visualisation/26770978">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+            <noscript>
+                <img src="https://public.flourish.studio/visualisation/26770978/thumbnail" width="100%" alt="chart visualization" />
+            </noscript>
+        </div>
+        <p>Puedes agregar más contenido aquí.</p>
+    </div>
+
+</body>
+</html>
